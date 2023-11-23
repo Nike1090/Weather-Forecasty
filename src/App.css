@@ -7,14 +7,17 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.App {
+  background-image: url('allWeather.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 2000px;
 }
 
+
 .App-header {
-  background-color: #282c34;
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -25,14 +28,27 @@
 }
 
 .App-link {
-  color: #61dafb;
+  color: #1A237E;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a {
+  color: #000 !important;
 }
+a:hover {
+   color: #1A237E !important;
+   text-decoration: none !important;
+}
+
+.cityName{
+  float: left !important;
+}
+
+.container,.card{
+  background-color: #f2efc7  !important;
+}
+
+.btn{
+  color: blue;
+
+}
+
